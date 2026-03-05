@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Awesome Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #000000;
+        }
+
+        .nav {
+            background: #f4f4f4;
+            padding: 15px;
+        }
+
+        .nav a {
+            margin-right: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .features {
+            margin: 40px;
+        }
+
+        .feature-box {
+            margin-bottom: 20px;
+        }
+
+        .cta {
+            background: #0077cc;
+            color: white;
+            padding: 10px 20px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        input {
+            padding: 8px;
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+
+    <div class="hero">
+        <h1>Welcome to Our Site</h1>
+        <p>We build amazing things for the web.</p>
+        <button class="cta">Click Here</button>
+    </div>
+
+    <div>
+        <h2>Our Features</h2>
+        <div class="features">
+            <div class="feature-box">
+              <h3>Fast</h3>
+                <img src="fast-computer.png" width="400" height="300" alt=" A man on an office rain speeding down a road in the city while holding his laptop"/>
+                <p>Our platform is super fast. 
+                <a href="#">Learn more about our speed</a>.</p>
+            </div>
+
+            <div class="feature-box">
+              <h3>Reliable</h3>
+                <img src="HelpingBlog18.jpg" width="400" height="300" alt="an image of the shadows of someone pulling a person up a mountain"/>
+                <p>We guarantee uptime and performance.</p>
+            </div>
+
+            <div class="feature-box">
+              <h3>Secure</h3>
+                <img src="data-protection.jpg" width="400" height="300" alt="an image of a cloud representing user data with a lock on it with binary code in the background"/>
+                <p>Your data is protected with industry standards.</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Your Name">
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Your Email">
+
+            <button type="submit" class="cta">Submit</button>
+        </form>
+    </div>
+
+    </main>
+
+</body>
+</html>
